@@ -36,4 +36,9 @@ client.on('message', (message) => {
   }
 });
 
+  if(message.content === '12점') {
+    message.reply('어허');
+  }
+});
+
 client.login(token);
