@@ -38,7 +38,7 @@ client.on('message', (message) => {
     message.reply('어허');
     
   if(message.content === '도움말') {
-    message.reply('12점/오쀼프X 작동!');
+    message.reply('12점/오쀼프X 작동! 이후 ');
   }
 });
 
