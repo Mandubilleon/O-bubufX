@@ -33,9 +33,7 @@ client.on('message', (message) => {
 
   if(message.content === '오쀼프X 작동!') {
     message.reply('얘 봄감자가 맛있단다!');
-  }
-});
-
+    
   if(message.content === '12점') {
     message.reply('어허');
   }
