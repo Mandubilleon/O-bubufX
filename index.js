@@ -36,6 +36,9 @@ client.on('message', (message) => {
     
   if(message.content === '12점') {
     message.reply('어허');
+    
+  if(message.content === '도움말') {
+    message.reply('12점/오쀼프X 작동!');
   }
 });
 
